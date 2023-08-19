@@ -1,0 +1,23 @@
+.spinner-middle{
+   min-height: 50vh;
+}
+#grad1 {
+   height: 200px;
+   /* background-color: #C686B0; For browsers that do not support gradients */
+   background-image: linear-gradient(to right, #C686B0 , #C2D84B);
+   /* background-image: linear-gradient(to right, #C686B0(255,0,0,0), #C2D84B(255,0,0,1)); */
+}
+#grad1 h2{
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 4rem;
+}
+
+#grad2 {
+   height: 150px;
+   width: 200px;
+   background-image: radial-gradient(circle, red, yellow, green);
+   margin: 2rem 5rem;
+ }
